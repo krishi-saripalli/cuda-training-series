@@ -1,4 +1,4 @@
-# Homework 1
+ # Homework 1
 
 These exercises will have you write some basic CUDA applications. You will learn how to allocate GPU memory, move data between the host and the GPU, and launch kernels.
 
