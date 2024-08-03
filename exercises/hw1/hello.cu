@@ -10,7 +10,7 @@ __global__ void hello(){
 
 int main(){
 
-  hello<<<2, 2>>>();
+  hello<<<2, 2>>>(); // num threads divided by block size, block size
   cudaDeviceSynchronize();
   return 0;
 }
